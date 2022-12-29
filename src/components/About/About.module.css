@@ -1,15 +1,29 @@
-.about{
-    font-size: 2rem;
-    text-decoration: underline;
+.about {
+  font-size: 2rem;
+  text-decoration: underline;
 }
 
 .migDiv {
-    border: 6px solid #fff;
-    border-radius: 10px;
-    margin-right: 10px;
+  border: 6px solid #fff;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: fit-content;
 }
 
-.mainHeading{
-    font-size: 2rem;
+.migDiv img {
+  width: 25rem;
 }
 
+.mainHeading {
+  font-size: 2rem;
+}
+
+.colImg {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-right: 0;
+  margin-right: 0;
+  width: fit-content;
+  max-width: fit-content;
+}
