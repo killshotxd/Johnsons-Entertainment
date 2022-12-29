@@ -1,7 +1,9 @@
 import React from "react";
 
 const AdultsAppre = () => {
-  return <div>AdultsAppre</div>;
+  return <div>
+  <h1>Adults Apprehension</h1>
+  </div>;
 };
 
 export default AdultsAppre;
