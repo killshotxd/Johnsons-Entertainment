@@ -1,0 +1,19 @@
+.head {
+  width: 100%;
+  background: purple;
+  color: aliceblue;
+  /* text-align: center; */
+  height: 6vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navTag {
+  gap: 1rem;
+}
+
+/* p {
+  margin: 0 !important;
+  padding: 0 !important;
+} */

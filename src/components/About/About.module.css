@@ -1,0 +1,15 @@
+.about{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.migDiv {
+    border: 6px solid #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.mainHeading{
+    font-size: 2rem;
+}
+
