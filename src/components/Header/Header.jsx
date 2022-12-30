@@ -2,19 +2,20 @@ import React from "react";
 import styles from "./Header.module.css";
 import { useNavigate } from "react-router-dom";
 const Header = () => {
-
   const navigate = useNavigate();
 
   const navHome = () => {
-    navigate("/")
-  }
+    navigate("/");
+  };
 
   return (
-    <div className={` shadow  ${styles.head}`}>
+    <div className={`   ${styles.head}`}>
       <div>
-        <h5 style={{ cursor: "pointer" }}
-            onClick={navHome}
-           className="text-white">
+        <h5
+          style={{ cursor: "pointer" }}
+          onClick={navHome}
+          className="text-white"
+        >
           JOHNSON'S ENTERTAINMENT
         </h5>
       </div>

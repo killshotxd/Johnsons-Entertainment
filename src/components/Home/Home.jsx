@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import Char from "../../assets/CharBG.png";
+import arrow from "../../assets/icons8-chevron-right-30 (1).png";
 import curtain from "../../assets/curt.jpg";
 import styles from "./Home.module.css";
 import AOS from "aos";
@@ -147,7 +148,9 @@ const Home = () => {
             {/* ABOUT COL */}
 
             <div className="container mt-5 text-center">
-              <h3>JOHNSON'S ENTERTAINMENT FOR YOUR ENJOYMENT</h3>
+              <h3>
+                <span>JOHNSON'S ENTERTAINMENT FOR YOUR ENJOYMENT</span>
+              </h3>
             </div>
 
             <div
@@ -174,7 +177,7 @@ const Home = () => {
         <div className="row mt-5 w-100">
           <div className={`col ${styles.mobChar}`}>
             <img
-              style={{ height: "50vh", background: "rgb(255 164 255)" }}
+              style={{ height: "40vh", background: "rgb(255 164 255)" }}
               src={Char}
               alt="character Img"
             />

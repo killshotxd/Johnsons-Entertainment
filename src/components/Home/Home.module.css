@@ -74,3 +74,8 @@ img {
     display: none;
   }
 }
+
+.mobChar {
+  max-width: fit-content !important;
+  width: fit-content !important;
+}
