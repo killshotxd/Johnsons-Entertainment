@@ -51,7 +51,7 @@ const Home = () => {
           {/* WINDOW COL */}
           <div data-aos="fade-left" className="col-7 mt-5">
             <div className="container">
-              <div style={{ gap: "4rem" }} className="row">
+              <div style={{ gap: "2rem" }} className="row">
                 <div className="col ">
                   <div className={styles.photo}>
                     <img
@@ -98,7 +98,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div style={{ gap: "4rem" }} className="row mt-4">
+              <div style={{ gap: "2rem" }} className="row mt-4">
                 <div className="col">
                   <div className={styles.photo}>
                     <img
