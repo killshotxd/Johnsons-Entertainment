@@ -10,7 +10,7 @@ const About = () => {
       <div className="container mt-3 pt-5 d-flex justify-content-around">
         <div className="row">
           <div className={`col ${styles.colImg} `}>
-            <div className={styles.migDiv}>
+            <div data-aos="fade-down-right" className={styles.migDiv}>
               <img
                 className={styles.image}
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Johnny_Depp_Jim_Jarmusch_Cannes_1995.jpg/170px-Johnny_Depp_Jim_Jarmusch_Cannes_1995.jpg"
@@ -18,7 +18,10 @@ const About = () => {
               />
             </div>
           </div>
-          <div className="col container d-flex justify-content-center flex-column ">
+          <div
+            data-aos="fade-down-left"
+            className="col container d-flex justify-content-center flex-column "
+          >
             <h1 className={`mb-4 text-black ${styles.mainHeading}`}>
               JOHNSON'S ENTERTAINMENT
             </h1>
