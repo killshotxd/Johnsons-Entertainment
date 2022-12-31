@@ -43,7 +43,7 @@ const Home = () => {
           <div className={`col-5 ${styles.charCol}`}>
             <img
               className={styles.charImg}
-              style={{ height: "100vh", background: "rgb(255 164 255)" }}
+              style={{ height: "100vh", background: "rgb(255 209 255)" }}
               src={Char}
               alt="character Img"
             />
@@ -71,7 +71,7 @@ const Home = () => {
                       </p>
                     </div>
 
-                    <h3 className="text-center mt-2">Adult's Apprehension</h3>
+                    <h4 className="text-center mt-2">Adult's Apprehension</h4>
                   </div>
                 </div>
 
@@ -94,7 +94,7 @@ const Home = () => {
                       </p>
                     </div>
 
-                    <h3 className="text-center mt-2">Children's Books</h3>
+                    <h4 className="text-center mt-2">Children's Books</h4>
                   </div>
                 </div>
               </div>
@@ -118,7 +118,7 @@ const Home = () => {
                       </p>
                     </div>
 
-                    <h3 className="text-center mt-2">Novels</h3>
+                    <h4 className="text-center mt-2">Novels</h4>
                   </div>
                 </div>
                 <div className="col">
@@ -140,7 +140,7 @@ const Home = () => {
                       </p>
                     </div>
 
-                    <h3 className="text-center mt-2">Spook-A-Mook</h3>
+                    <h4 className="text-center mt-2">Spook-A-Mook</h4>
                   </div>
                 </div>
               </div>
@@ -177,7 +177,7 @@ const Home = () => {
         <div className="row mt-5 w-100">
           <div className={`col ${styles.mobChar}`}>
             <img
-              style={{ height: "40vh", background: "rgb(255 164 255)" }}
+              style={{ height: "40vh", background: "rgb(255 209 255)" }}
               src={Char}
               alt="character Img"
             />
@@ -197,7 +197,7 @@ const Home = () => {
           className="col-7 mt-5 d-flex flex-column justify-content-center align-items-center m-auto w-auto"
         >
           <div className="container">
-            <div style={{ gap: "4rem" }} className="row">
+            <div style={{ gap: "2rem" }} className="row">
               <div className="col ">
                 <div className={styles.photo}>
                   <img
@@ -217,7 +217,7 @@ const Home = () => {
                     </p>
                   </div>
 
-                  <h3 className="text-center mt-2">Adult's Apprehension</h3>
+                  <h4 className="text-center mt-2">Adult's Apprehension</h4>
                 </div>
               </div>
 
@@ -240,11 +240,11 @@ const Home = () => {
                     </p>
                   </div>
 
-                  <h3 className="text-center mt-2">Children's Books</h3>
+                  <h4 className="text-center mt-2">Children's Books</h4>
                 </div>
               </div>
             </div>
-            <div style={{ gap: "4rem" }} className="row mt-4">
+            <div style={{ gap: "2rem" }} className="row mt-4">
               <div className="col">
                 <div className={styles.photo}>
                   <img
@@ -264,7 +264,7 @@ const Home = () => {
                     </p>
                   </div>
 
-                  <h3 className="text-center mt-2">Novels</h3>
+                  <h4 className="text-center mt-2">Novels</h4>
                 </div>
               </div>
               <div className="col">
@@ -286,7 +286,7 @@ const Home = () => {
                     </p>
                   </div>
 
-                  <h3 className="text-center mt-2">Spook-A-Mook</h3>
+                  <h4 className="text-center mt-2">Spook-A-Mook</h4>
                 </div>
               </div>
             </div>
